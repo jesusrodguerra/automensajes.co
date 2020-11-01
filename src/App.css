@@ -2,37 +2,259 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* GLOBALES */
+.margen-contenedores {
+  margin-top: 160px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-green {
+  border-radius: 55px;
+  border: none;
+  background: #27AE60;
+  color: white;
+  width: 200px;
+  height: 45px;
+  margin: 20px 0 0 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-green-outline {
+  border-radius: 55px;
+  border-color: #27AE60;
+  background: transparent;
+  color: white;
+  width: 200px;
+  height: 45px;
+  margin: 20px 0 0 20px;
+}
+/* GLOBALES */
+
+/* ESTILOS NAVBAR */
+.navbar-brand img {
+  width: 60px;
+}
+
+.nav-item .nav-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item .nav-link:hover {
+  color: #27AE60;
+}
+/* ESTILOS NAVBAR */
+
+/* ESTILOS PARA EL HERO */
+.fondo {
+  background-image: url("assets/CirculosFondo2.png");
+  background-repeat: no-repeat;
+  background-position-x: -490px;
+  background-position-y: -66px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero {
+  display: flex;
+  margin-top: 100px;
+  height: 70vh;
+}
+
+.color-grey {
+  color: #D2D2D2;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 9px;
+}
+
+.hero-rigth {
+  margin-left: 9px;
+}
+/* ESTILOS PARA EL HERO */
+
+/* ESTILOS CARDS */
+.cards-container {
+  display: flex;
+}
+
+.color-title {
+  color: #FFFF00;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  margin: 40px 6px 0 6px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-title {
+  color: #206A5D;
+}
+
+.card-body img {
+  width: 100px;
+}
+
+.logos {
+  margin: 200px 0 100px 0;
+}
+/* ESTILOS CARDS */
+
+/* ESTILOS MAP SECTION */
+.background-green {
+  background-color: #27AE60;
+  padding: 60px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.map-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.btn-map-section {
+  border-radius: 55px;
+  border: none;
+  font-weight: 600;
+  background: white;
+  color: #023BAB;
+  width: 100%;
+  height: 45px;
+  margin: 20px 20px 0 0;
+}
+
+.color-white {
+  color: white;
+}
+/* ESTILOS MAP SECTION */
+
+/* ESTILOS BENEFICIOS */
+.beneficios-container {
+  margin-top: 100px;
+}
+
+.beneficios-container h2 {
+  margin-bottom: 50px;
+}
+
+.beneficios-content {
+  display: flex;
+}
+
+.beneficios-right {
+  padding: 0 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.beneficios-right ul {
+  list-style-image: url('assets/listaImagen.png')
+}
+
+.beneficios-right ul li {
+  font-size: 18px;
+}
+/* ESTILOS BENEFICIOS */
+
+/* ESTILOS TESTIMONIOS */
+.title-testimonio {
+  margin-top: 150px
+}
+
+.background {
+  background-color: #206A5D;
+  margin-top: 40px;
+}
+
+.video-testimonio {
+  display: flex;
+  margin-top: 20px;
+}
+
+.video-testimonio h3 {
+  margin: auto;
+  color: #FFFF00;
+}
+
+.video-testimonio h3 span {
+  color: white;
+  font-size: 22px;
+}
+
+.testimonio-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* ESTILOS TESTIMONIOS */
+
+/* ESTILOS EJEMPLOS */
+.ejemplos {
+  margin-top: 100px;
+}
+
+.ejemplos h2 {
+  margin-bottom: 50px;
+}
+
+.ejemplos h5 {
+  color: #3DDEC2;
+}
+/* ESTILOS EJEMPLOS */
+
+/* ESTILOS LICENCIA */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-licencia ul {
+  list-style-image: url('assets/iconoLicencia.png')
+}
+/* ESTILOS LICENCIA */
+
+/* ESTILOS ATRIBUTOS */
+.card-atributo {
+  margin-top: 40px;
+  color: white;
+  width: 400px;
+}
+
+.margen-contenedor {
+  margin-top: 100px;
+}
+
+.color-line {
+  background: #92E3A9;
+}
+/* ESTILOS ATRIBUTOS */
+
+/* ESTILOS ESTRATEGIA */
+.background-green-border {
+  background-color: #206A5D;
+  padding: 60px;
+  border-bottom-left-radius: 150px;
+}
+/* ESTILOS ESTRATEGIA */
+
+.btn-hover:hover {
+  box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 6px 2px rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.btn-map-section:hover {
+  background-color: rgba(50, 50, 50, 0.9);
+  color: white;
 }
